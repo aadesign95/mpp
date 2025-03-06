@@ -8,7 +8,7 @@
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse custom-navbar-bg" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
                 <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="{{ url('/') }}">Beranda</a>
                 <a class="nav-link {{ request()->is('profile') ? 'active' : '' }}"
